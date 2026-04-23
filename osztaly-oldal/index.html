@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <title>Osztály Oldal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="nevlista">
+    <ul>
+        <li>Név 1</li>
+<li>Név 2</li>
+<li>Név 3</li>
+<li>Név 4</li>
+<li>Név 5</li>
+<li>Név 6</li>
+<li>Név 7</li>
+<li>Név 8</li>
+<li>Név 9</li>
+<li>Név 10</li>
+<li>Név 11</li>
+<li>Név 12</li>
+<li>Név 13</li>
+<li>Név 14</li>
+<li>Név 15</li>
+<li>Név 16</li>
+<li>Név 17</li>
+<li>Név 18</li>
+<li>Név 19</li>
+<li>Név 20</li>
+<li>Név 21</li>
+<li>Név 22</li>
+<li>Név 23</li>
+<li>Név 24</li>
+    </ul>
+</div>
+
+<div class="menu">
+    <div onclick="openPage('elmenyek')">Élmények</div>
+    <div onclick="openPage('kirandulas')">Osztálykirándulás</div>
+    <div onclick="openPage('erdekessegek')">Érdekességek</div>
+</div>
+
+<div id="elmenyek" class="page">
+    <h2>Élmények</h2>
+    <div class="grid" id="elmeny-grid"></div>
+</div>
+
+<div id="kirandulas" class="page">
+    <h2>Osztálykirándulás</h2>
+    <button onclick="openSub('k1')">Kirándulás 1</button>
+    <button onclick="openSub('k2')">Kirándulás 2</button>
+    <button onclick="openSub('k3')">Kirándulás 3</button>
+
+    <div id="k1" class="subgrid"></div>
+    <div id="k2" class="subgrid"></div>
+    <div id="k3" class="subgrid"></div>
+</div>
+
+<div id="erdekessegek" class="page">
+    <h2>Érdekességek</h2>
+    <p>Ide jöhet bármi később</p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
